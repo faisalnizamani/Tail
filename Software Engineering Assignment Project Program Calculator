@@ -1,5 +1,5 @@
-// C++ program to create calculator using
-// switch statement
+//C++ program to create calculator using
+//switch statement
 #include <iostream>
 using namespace std;
 
