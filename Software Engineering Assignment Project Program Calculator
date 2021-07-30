@@ -3,33 +3,33 @@
 #include <iostream>
 using namespace std;
 
-// Main program
+//Main program
 main()
 {
 
 char op;
 float num1, num2;
 
-// It allows user to enter operator i.e. +, -, *, /,
+//It allows user to enter operator i.e. +, -, *, /,
 cin >> op;
 
-// It allow user to enter the operands
+//It allow user to enter the operands
 cin >> num1 >> num2;
 
-// Switch statement begins
+//Switch statement begins
 switch (op) {
 
-// If user enter +
+//If user enter +
 case '+':
 cout << num1 + num2;
 break;
 
-// If user enter -
+//If user enter -
 case '-':
 cout << num1 - num2;
 break;
 
-// If user enter *
+//If user enter *
 case '*':
 cout << num1 * num2;
 break;
